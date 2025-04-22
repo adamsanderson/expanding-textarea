@@ -1,8 +1,27 @@
 {
   "name": "expanding-textarea",
-  "private": true,
-  "version": "0.0.0",
+  "author": {
+    "name": "Adam Sanderson",
+    "email": "netghost@gmail.com",
+    "url": "https://snakeshands.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adamsanderson/expanding-textarea.git"
+  },
+  "keywords": ["DOM", "textarea", "webcomponent"],
+  "license": "MIT",
+  "version": "0.1.0",
   "type": "module",
+  "files": ["dist"],
+  "module": "./dist/expanding-textarea.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/expanding-textarea.js",
+      "require": "./dist/expanding-textarea.es.js"
+    }
+  },
+
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
