@@ -1,4 +1,6 @@
+// @ts-ignore
 import { dirname, resolve } from 'node:path'
+// @ts-ignore
 import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 
@@ -11,12 +13,6 @@ export default defineConfig({
             name: 'expanding-textarea',
             fileName: (format) => `expanding-textarea.${format}.js`,
             formats: ['es']
-        },
-        rollupOptions: {
-            external: [],
-            output: {
-                globals: {},
-            },
-        },
+        }
     },
 })

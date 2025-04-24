@@ -10,7 +10,7 @@ importers:
 
   packages/demo:
     dependencies:
-      '@expanding-textarea/lib':
+      expanding-textarea:
         specifier: workspace:*
         version: link:../lib
     devDependencies:

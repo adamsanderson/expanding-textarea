@@ -1,4 +1,6 @@
+// @ts-ignore
 import { dirname, resolve } from 'node:path'
+// @ts-ignore
 import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
 
@@ -12,4 +14,10 @@ export default defineConfig({
             },
         },
     },
+    // This allows us to resolve the library file as TypeScript during development.
+    resolve: {
+        alias: {
+          'expanding-textarea': fileURLToPath(new URL('../lib/src/expanding-textarea', import.meta.url))
+        }
+      }
 })

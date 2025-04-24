@@ -1,5 +1,5 @@
 {
-  "name": "@expanding-textarea/demo",
+  "name": "expanding-textarea-demo",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@expanding-textarea/lib": "workspace:*"
+    "expanding-textarea": "workspace:*"
   },
   "devDependencies": {
     "typescript": "~5.7.2",

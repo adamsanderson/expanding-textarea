@@ -1,5 +1,5 @@
 import './style.css'
-import '@expanding-textarea/lib'
+import 'expanding-textarea'
 
 const form = document.querySelector('#demo-form') as HTMLFormElement;
 const output = document.querySelector('#demo-form-output') as HTMLElement;
