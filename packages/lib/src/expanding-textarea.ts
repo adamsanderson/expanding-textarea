@@ -1,4 +1,4 @@
-class ExpandingTextArea extends HTMLElement {
+export class ExpandingTextArea extends HTMLElement {
   static formAssociated = true;
 
   #internals: ElementInternals;
