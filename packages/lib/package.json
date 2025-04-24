@@ -4,11 +4,13 @@
   "type": "module",
   "files": ["dist"],
   "main": "./dist/expanding-textarea.es.js",
+  "types": "./dist/expanding-textarea.d.ts",
   "module": "./dist/expanding-textarea.es.js",
   "exports": {
     ".": {
       "import": "./dist/expanding-textarea.es.js",
-      "require": "./dist/expanding-textarea.es.js"
+      "require": "./dist/expanding-textarea.es.js",
+      "types": "./dist/expanding-textarea.d.ts"
     }
   },
   "scripts": {
