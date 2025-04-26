@@ -7,6 +7,7 @@ import { defineConfig } from 'vite'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
+    base: '/expanding-textarea/',
     build: {
         rollupOptions: {
             input: {
