@@ -18,7 +18,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build"
+    "build": "tsc && vite build",
+    "prepack": "pnpm build"
   },
   "devDependencies": {
     "typescript": "~5.7.2",
