@@ -11,32 +11,12 @@
   <div id="app">
     <h1>Expanding Textarea</h1>
     <p>
-      You have a simple need. When the user types a few lines into a textarea, the input should grow to fit the text.
-      This should be easy, and it can be.
+      This tiny web component can be dropped in as a replacement for a native textarea.
     </p>
-    <h2>Reasonable Alternatives</h2>
-    <p>
-      Here are two other options to consider first:
-    </p>
-    <ul>
-      <li>
-        Use this <a href="https://css-tricks.com/the-cleanest-trick-for-autogrowing-textareas/">clever CSS trick to
-          replicate the textarea's content</a>.
-        This can work just fine, though you do need to be careful that the hidden element perfectly mimics the textarea.
-      </li>
-      <li>
-        Use Javascript to <a href="https://css-tricks.com/auto-growing-inputs-textareas/">measure and resize when the
-          content changes</a>,
-        though it's often a bit jerky.
-      </li>
-    </ul>
-    <p>
-      If those don't fit your need, consider this tiny web component.
-      You can drop it in and use it like a normal HTML element.
-    </p>
+    
     <h2>A mildly compelling demo</h2>
     <p>
-      Here's an HTML form with a custom expanding-textarea and native textarea. Try them both out.
+      Here's an HTML form with an <code>expanding-textarea</code> and native <code>textarea</code>. Try them both out.
       Watch the outputs and poke at them with your browser's devtools.
     </p>
     <p>
@@ -62,20 +42,14 @@
       </fieldset>
     </form>
     <p>And here's what the form values look like:</p>
-    <code><pre id='demo-form-output'></pre></code>
+    <pre id='demo-form-output'></pre>
 
-    <h2>Usage</h2>
     <p>
-      Use an expanding-textarea just how you would use a normal textarea. Its interface and behavior
-      should be identical in most cases.
-    </p>
-    <code><pre>&lt;expanding-textarea&gt;Inital value&lt;/expanding-textarea&gt;</pre></code>
-    <p>
-      That's about it! I hope you find this useful.
+      For more information, check the <a href="https://github.com/adamsanderson/expanding-textarea">README on GitHub</a>.
     </p>
   </div>
   <footer>
-    By <a href="https://snakeshands.com/">Adam Sanderson</a>
+    <a href="https://snakeshands.com/">Adam Sanderson</a>
   </footer>
   <script type="module" src="/src/main.ts"></script>
 </body>

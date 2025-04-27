@@ -78,6 +78,14 @@ pre {
   background: color-mix(in srgb, currentColor, transparent 90%);
 }
 
+code {
+  padding: 3px 5px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #646cff;
+  color: white;
+}
+
 #app {
   min-width: 40ch;
   max-width: 60ch;
